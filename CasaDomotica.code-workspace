@@ -10,6 +10,9 @@
 		{
 			"name": "ClientExample",
 			"path": "Clients/ClientExample"
+		},
+		{
+			"path": "../KeyPadCode/arduinokeypad"
 		}
 	],
 	"settings": {}
