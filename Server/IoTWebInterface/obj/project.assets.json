@@ -6141,24 +6141,34 @@
     ]
   },
   "packageFolders": {
-    "/home/daniele/.nuget/packages/": {}
+    "C:\\Users\\dnvit\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/daniele/VSCode/CasaDomotica/Server/IoTWebInterface/IoTWebInterface.csproj",
+      "projectUniqueName": "c:\\Users\\dnvit\\Documents\\Projects\\VSCode\\CasaDomotica\\Server\\IoTWebInterface\\IoTWebInterface.csproj",
       "projectName": "IoTWebInterface",
-      "projectPath": "/home/daniele/VSCode/CasaDomotica/Server/IoTWebInterface/IoTWebInterface.csproj",
-      "packagesPath": "/home/daniele/.nuget/packages/",
-      "outputPath": "/home/daniele/VSCode/CasaDomotica/Server/IoTWebInterface/obj/",
+      "projectPath": "c:\\Users\\dnvit\\Documents\\Projects\\VSCode\\CasaDomotica\\Server\\IoTWebInterface\\IoTWebInterface.csproj",
+      "packagesPath": "C:\\Users\\dnvit\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\dnvit\\Documents\\Projects\\VSCode\\CasaDomotica\\Server\\IoTWebInterface\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/home/daniele/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\dnvit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6208,6 +6218,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.3, 5.0.3]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -6216,7 +6232,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/120/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.2.21155.3\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O60ASOuHrsuAQb8Fyze7HjFFqI6sR9qWToB6qZ6ubdJS5qhSAkftNEf41RArnshiUTZs3bTGW6WingAe5O7k9Q==",
+  "dgSpecHash": "FVUOZOl3S7ml9y7HkkHYKh8/FjL/fa481NMc1JBbWJXUUb92ilJzNn7kbE997AOWqIw+1dSW8Zq9XUe8UUzzmg==",
   "success": true,
-  "projectFilePath": "/home/daniele/VSCode/CasaDomotica/Server/Shared/Shared.csproj",
+  "projectFilePath": "c:\\Users\\dnvit\\Documents\\Projects\\VSCode\\CasaDomotica\\Server\\Shared\\Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
