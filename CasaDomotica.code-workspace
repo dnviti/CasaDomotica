@@ -8,8 +8,7 @@
 			"path": "Tools/I2CScanner"
 		},
 		{
-			"name": "ClientExample",
-			"path": "Clients/ClientExample"
+			"path": "Clients/Campo"
 		}
 	],
 	"settings": {}

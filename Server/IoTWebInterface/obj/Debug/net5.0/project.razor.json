@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1305809597,
-        "Kind": "Components.Component",
-        "Name": "IoTWebInterface.Pages.Counter",
-        "AssemblyName": "IoTWebInterface",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IoTWebInterface.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -614969936,
-        "Kind": "Components.Component",
-        "Name": "IoTWebInterface.Pages.Counter",
-        "AssemblyName": "IoTWebInterface",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "IoTWebInterface.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IoTWebInterface.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1291559875,
         "Kind": "Components.Component",
         "Name": "IoTWebInterface.Pages.FetchData",
@@ -111,35 +78,35 @@
         }
       },
       {
-        "HashCode": 925115023,
+        "HashCode": 1305809597,
         "Kind": "Components.Component",
-        "Name": "IoTWebInterface.App",
+        "Name": "IoTWebInterface.Pages.Counter",
         "AssemblyName": "IoTWebInterface",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IoTWebInterface.App"
+          "Common.TypeName": "IoTWebInterface.Pages.Counter"
         }
       },
       {
-        "HashCode": -247387459,
+        "HashCode": -614969936,
         "Kind": "Components.Component",
-        "Name": "IoTWebInterface.App",
+        "Name": "IoTWebInterface.Pages.Counter",
         "AssemblyName": "IoTWebInterface",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "IoTWebInterface.App"
+            "TagName": "IoTWebInterface.Pages.Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IoTWebInterface.App",
+          "Common.TypeName": "IoTWebInterface.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -173,6 +140,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "IoTWebInterface.Shared.LoginDisplay",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1770174259,
+        "Kind": "Components.Component",
+        "Name": "IoTWebInterface.Shared.NavMenu",
+        "AssemblyName": "IoTWebInterface",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IoTWebInterface.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -1487737485,
+        "Kind": "Components.Component",
+        "Name": "IoTWebInterface.Shared.NavMenu",
+        "AssemblyName": "IoTWebInterface",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "IoTWebInterface.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IoTWebInterface.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -326,35 +326,35 @@
         }
       },
       {
-        "HashCode": -1770174259,
+        "HashCode": 925115023,
         "Kind": "Components.Component",
-        "Name": "IoTWebInterface.Shared.NavMenu",
+        "Name": "IoTWebInterface.App",
         "AssemblyName": "IoTWebInterface",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IoTWebInterface.Shared.NavMenu"
+          "Common.TypeName": "IoTWebInterface.App"
         }
       },
       {
-        "HashCode": -1487737485,
+        "HashCode": -247387459,
         "Kind": "Components.Component",
-        "Name": "IoTWebInterface.Shared.NavMenu",
+        "Name": "IoTWebInterface.App",
         "AssemblyName": "IoTWebInterface",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "IoTWebInterface.Shared.NavMenu"
+            "TagName": "IoTWebInterface.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IoTWebInterface.Shared.NavMenu",
+          "Common.TypeName": "IoTWebInterface.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
