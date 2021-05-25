@@ -9,6 +9,10 @@
 		},
 		{
 			"path": "Clients/Campo"
+		},
+		{
+			"name": "Casa",
+			"path": "Clients/Casa"
 		}
 	],
 	"settings": {}
