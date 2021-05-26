@@ -15,5 +15,9 @@
 			"path": "Clients/Casa"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"*.tcc": "cpp"
+		}
+	}
 }
