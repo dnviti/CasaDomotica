@@ -56,9 +56,14 @@ unsigned long lastMsg = 0;
 char msg[MSG_BUFFER_SIZE];
 long int value = 0;
 
-int lightLimit = 14;
+int lightLimit = 1;
+int ambLight = 0;
 
 bool configActive = false;
+
+int photoReadingState = 0;
+double photoReadingAvg = 0;
+int photoReadings[9];
 
 const char *ssid = "WiFi-IoT";
 const char *password = "M03qE8fQkmtOvslbkjexRHR0";
@@ -316,6 +321,7 @@ void tDisplayInterval()
 void tReadingsComplete() {}
 void tReadingsInterval()
 {
+  ambLight = analogRead(PHOTORESISTOR_PIN);
 }
 
 void tMqttUpdaterComplete() {}
@@ -514,9 +520,9 @@ void loop()
     {
     case '*': // automatic external light on/off based on photoresistors value
       displayTopRight = "AUTO";
-      displayBottomLeft = "Soglia Luce:";
-      displayBottomRight = String(lightLimit);
-      if (analogRead(PHOTORESISTOR_PIN) <= lightLimit)
+      displayBottomLeft = "Luce Amb:";
+      displayBottomRight = String(ambLight);
+      if (ambLight <= lightLimit)
       {
         led2LastState = HIGH;
         led4LastState = HIGH;
@@ -540,6 +546,7 @@ void loop()
       digitalCommonAnodeWrite(LED_EXT2_PIN, led2LastState);
       digitalCommonAnodeWrite(LED_INT3_PIN, led3LastState);
       digitalCommonAnodeWrite(LED_EXT4_PIN, led4LastState);
+      //tReadings.stop();
       tMqttUpdater.run();
       break;
     default:
