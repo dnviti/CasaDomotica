@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\dnvit\\Documents\\Projects\\VSCode\\CasaDomotica\\Server\\IoTWebInterface\\IoTWebInterface.csproj": {}
+    "d:\\Projects\\VSCode\\CasaDomotica\\Server\\IoTWebInterface\\IoTWebInterface.csproj": {}
   },
   "projects": {
-    "c:\\Users\\dnvit\\Documents\\Projects\\VSCode\\CasaDomotica\\Server\\IoTWebInterface\\IoTWebInterface.csproj": {
+    "d:\\Projects\\VSCode\\CasaDomotica\\Server\\IoTWebInterface\\IoTWebInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\dnvit\\Documents\\Projects\\VSCode\\CasaDomotica\\Server\\IoTWebInterface\\IoTWebInterface.csproj",
+        "projectUniqueName": "d:\\Projects\\VSCode\\CasaDomotica\\Server\\IoTWebInterface\\IoTWebInterface.csproj",
         "projectName": "IoTWebInterface",
-        "projectPath": "c:\\Users\\dnvit\\Documents\\Projects\\VSCode\\CasaDomotica\\Server\\IoTWebInterface\\IoTWebInterface.csproj",
+        "projectPath": "d:\\Projects\\VSCode\\CasaDomotica\\Server\\IoTWebInterface\\IoTWebInterface.csproj",
         "packagesPath": "C:\\Users\\dnvit\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\dnvit\\Documents\\Projects\\VSCode\\CasaDomotica\\Server\\IoTWebInterface\\obj\\",
+        "outputPath": "d:\\Projects\\VSCode\\CasaDomotica\\Server\\IoTWebInterface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

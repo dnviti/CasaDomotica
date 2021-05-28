@@ -1,0 +1,10 @@
+D:\Projects\VSCode\CasaDomotica\Server\IoTApi\bin\Debug\netcoreapp5.0\publish\IoTApi.exe
+D:\Projects\VSCode\CasaDomotica\Server\IoTApi\bin\Debug\netcoreapp5.0\publish\appsettings.Development.json
+D:\Projects\VSCode\CasaDomotica\Server\IoTApi\bin\Debug\netcoreapp5.0\publish\appsettings.json
+D:\Projects\VSCode\CasaDomotica\Server\IoTApi\bin\Debug\netcoreapp5.0\publish\IoTApi.dll
+D:\Projects\VSCode\CasaDomotica\Server\IoTApi\bin\Debug\netcoreapp5.0\publish\IoTApi.deps.json
+D:\Projects\VSCode\CasaDomotica\Server\IoTApi\bin\Debug\netcoreapp5.0\publish\IoTApi.runtimeconfig.json
+D:\Projects\VSCode\CasaDomotica\Server\IoTApi\bin\Debug\netcoreapp5.0\publish\IoTApi.pdb
+D:\Projects\VSCode\CasaDomotica\Server\IoTApi\bin\Debug\netcoreapp5.0\publish\MQTTnet.dll
+D:\Projects\VSCode\CasaDomotica\Server\IoTApi\bin\Debug\netcoreapp5.0\publish\MQTTnet.AspNetCore.dll
+D:\Projects\VSCode\CasaDomotica\Server\IoTApi\bin\Debug\netcoreapp5.0\publish\MQTTnet.Extensions.ManagedClient.dll

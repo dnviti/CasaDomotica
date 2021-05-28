@@ -1,5 +1,5 @@
 /*
- Name:		ArduinoMqttClient.ino
+ Name:		ArduinoCampoSolare
  Created:	2/8/2021 7:22:50 PM
  Author:	Daniele Viti
 */
@@ -10,10 +10,8 @@
 #include <Wire.h>
 #include <SPI.h>
 #include <Adafruit_BMP280.h>
-#include <Keypad.h>
 #include <Countimer.h>
 #include <U8g2lib.h>
-#include <math.h>
 
 // Update these with values suitable for your network.
 
@@ -23,7 +21,7 @@ const char *mqtt_server = "192.168.10.103";
 
 #define DEBUGLN(A) Serial.println(A);
 #define DEBUG(A) Serial.print(A);
-#define DEBUG_ENABLED 1
+#define DEBUG_ENABLED 0
 
 #define LED_OUTPUT_PIN D4
 #define LED_INPUT_PIN D5
@@ -66,14 +64,14 @@ long int value = 0;
 // Topics
 
 // Input
-const char *mqttInLed = "ard1/home1/led";
+const char *mqttInLed = "campo/led";
 
 // Output
-const char *mqttOutVoltage = "ard1/home1/volt";
-const char *mqttOutAmperage = "ard1/home1/ampere";
-const char *mqttOutTemperature = "ard1/home1/temp";
-const char *mqttOutPressure = "ard1/home1/press";
-const char *mqttOutAltitude = "ard1/home1/alt";
+const char *mqttOutVoltage = "campo/volt";
+const char *mqttOutAmperage = "campo/ampere";
+const char *mqttOutTemperature = "campo/temp";
+const char *mqttOutPressure = "campo/press";
+const char *mqttOutAltitude = "campo/alt";
 
 void debugLog(String s = "", bool newLine = true)
 {
@@ -378,12 +376,13 @@ void setup()
   client.setServer(mqtt_server, 1883);
   client.setCallback(callback);
 
-  if (client.connect("ard1"))
+  if (client.connect("campo"))
   {
     client.subscribe(mqttInLed);
   }
 
   // Setto il valore del pin del led per condividerlo con tutti all'avvio
+  digitalCommonAnodeWrite(LED_INPUT_PIN, LOW);
   int ledVal = digitalCommonAnodeRead(LED_INPUT_PIN);
   debugLog("Led Value: " + String(ledVal));
   snprintf(msg, MSG_BUFFER_SIZE, "%d", ledVal);
@@ -394,7 +393,6 @@ void loop()
 {
   client.loop();
 
-  tDisplay.run();
   tButton.run();
   tReadings.run();
 
@@ -418,4 +416,5 @@ void loop()
     displayTopLeft = "Online";
     displayReadings();
   }
+  tDisplay.run();
 }

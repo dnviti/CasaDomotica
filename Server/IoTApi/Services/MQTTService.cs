@@ -43,12 +43,12 @@ namespace IoTApi.Services
 
             _mqttClient.UseConnectedHandler(e =>
             {
-                Console.WriteLine($"Connection Result: {e.AuthenticateResult.ResultCode}");
+                //Console.WriteLine($"Connection Result: {e.AuthenticateResult.ResultCode}");
             });
 
             _mqttClient.UseApplicationMessageReceivedHandler(e =>
             {
-                Console.WriteLine($"Message from {e.ClientId}: {e.ApplicationMessage.Payload.Length} bytes.");
+                //Console.WriteLine($"Message from {e.ClientId}: {e.ApplicationMessage.Payload.Length} bytes.");
             });
 
             await _mqttClient.StartAsync(options);

@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\dnvit\\Documents\\Projects\\VSCode\\CasaDomotica\\Server\\Shared\\Shared.csproj",
+      "projectUniqueName": "d:\\Projects\\VSCode\\CasaDomotica\\Server\\Shared\\Shared.csproj",
       "projectName": "Shared",
-      "projectPath": "c:\\Users\\dnvit\\Documents\\Projects\\VSCode\\CasaDomotica\\Server\\Shared\\Shared.csproj",
+      "projectPath": "d:\\Projects\\VSCode\\CasaDomotica\\Server\\Shared\\Shared.csproj",
       "packagesPath": "C:\\Users\\dnvit\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\dnvit\\Documents\\Projects\\VSCode\\CasaDomotica\\Server\\Shared\\obj\\",
+      "outputPath": "d:\\Projects\\VSCode\\CasaDomotica\\Server\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -3823,11 +3823,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\dnvit\\Documents\\Projects\\VSCode\\CasaDomotica\\Server\\IoTApi\\IoTApi.csproj",
+      "projectUniqueName": "d:\\Projects\\VSCode\\CasaDomotica\\Server\\IoTApi\\IoTApi.csproj",
       "projectName": "IoTApi",
-      "projectPath": "c:\\Users\\dnvit\\Documents\\Projects\\VSCode\\CasaDomotica\\Server\\IoTApi\\IoTApi.csproj",
+      "projectPath": "d:\\Projects\\VSCode\\CasaDomotica\\Server\\IoTApi\\IoTApi.csproj",
       "packagesPath": "C:\\Users\\dnvit\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\dnvit\\Documents\\Projects\\VSCode\\CasaDomotica\\Server\\IoTApi\\obj\\",
+      "outputPath": "d:\\Projects\\VSCode\\CasaDomotica\\Server\\IoTApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

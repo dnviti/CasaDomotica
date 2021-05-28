@@ -5,4 +5,4 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = IoTWebInterface
-build_property.ProjectDir = c:\Users\dnvit\Documents\Projects\VSCode\CasaDomotica\Server\IoTWebInterface\
+build_property.ProjectDir = d:\Projects\VSCode\CasaDomotica\Server\IoTWebInterface\
