@@ -383,10 +383,7 @@ void setup()
 
   // Setto il valore del pin del led per condividerlo con tutti all'avvio
   digitalCommonAnodeWrite(LED_INPUT_PIN, LOW);
-  int ledVal = digitalCommonAnodeRead(LED_INPUT_PIN);
-  debugLog("Led Value: " + String(ledVal));
-  snprintf(msg, MSG_BUFFER_SIZE, "%d", ledVal);
-  client.publish(mqttInLed, msg);
+  sendMqttValue(mqttInLed, LOW);
 }
 
 void loop()
